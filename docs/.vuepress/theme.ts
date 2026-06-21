@@ -19,7 +19,7 @@ const isHomePage = (path: string): boolean => path === "/" || path === "/index.h
 export default hopeTheme({
   hostname: `${siteUrl}/`,
   logo: "/logo.svg",
-  favicon: "/logo.svg",
+  favicon: "/favicon.svg?v=20260622",
 
   author: {
     name: "shuwei",

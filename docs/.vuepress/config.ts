@@ -47,7 +47,7 @@ export default defineUserConfig({
     ],
     ["meta", { name: "theme-color", content: "#0f766e" }],
     ["meta", { name: "format-detection", content: "telephone=no" }],
-    ["link", { rel: "icon", href: "/logo.svg", type: "image/svg+xml" }],
+    ["link", { rel: "icon", href: "/favicon.svg?v=20260622", type: "image/svg+xml" }],
   ],
 
   plugins: [
