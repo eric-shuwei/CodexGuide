@@ -71,6 +71,7 @@
 }
 
 .vp-nav-item > .route-link,
+.vp-nav-item > a,
 .vp-dropdown-title {
   display: inline-flex;
   align-items: center;
@@ -81,8 +82,43 @@
 }
 
 .vp-dropdown-item .route-link,
+.vp-dropdown-item > a,
 .slimsearch-placeholder {
   font-size: 1rem;
+}
+
+
+.vp-nav-item > a,
+.vp-dropdown-item > a {
+  color: var(--vp-c-text);
+  font-weight: 600;
+}
+
+
+.vp-navbar .external-link::after,
+.vp-navbar .external-link-icon .external-link::after,
+.vp-dropdown .external-link::after {
+  display: none !important;
+  content: none !important;
+}
+
+.vp-navbar .external-link,
+.vp-dropdown .external-link {
+  background: none !important;
+  padding-inline-end: 0 !important;
+}
+
+
+.vp-nav-item > a:hover,
+.vp-dropdown-item > a:hover {
+  color: var(--vp-c-accent);
+}
+
+.vp-nav-item > a .vp-icon,
+.vp-dropdown-item > a .vp-icon,
+.vp-nav-item > a svg,
+.vp-dropdown-item > a svg {
+  display: none;
 }
 
 .vp-dropdown-wrapper {
@@ -103,6 +139,7 @@
   }
 
   .vp-nav-item > .route-link,
+  .vp-nav-item > a,
   .vp-dropdown-title {
     font-size: 0.96rem;
   }
@@ -170,6 +207,7 @@
   }
 
   .vp-nav-item > .route-link,
+  .vp-nav-item > a,
   .vp-dropdown-title {
     font-size: 0.92rem;
   }
@@ -199,6 +237,7 @@
   }
 
   .vp-nav-item > .route-link,
+  .vp-nav-item > a,
   .vp-dropdown-title {
     font-size: 0.9rem;
   }
@@ -237,20 +276,31 @@
     inset-inline-end: auto;
     top: calc(100% + 0.45rem);
     overflow: visible;
-    width: min(28rem, calc(100vw - 2rem));
+    width: min(15rem, calc(100vw - 2rem));
     max-height: none;
-    padding: 0.55rem;
+    padding: 0.75rem;
+    text-align: center;
     transform: translateX(-50%) scale(0.96);
     transform-origin: top center;
   }
 
   .vp-dropdown::before {
+    content: "扫码加入 CodexGuide 交流群";
+    display: block;
+    margin-bottom: 0.55rem;
+    color: var(--vp-c-text);
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .vp-dropdown::after {
     content: "";
     display: block;
-    aspect-ratio: 980 / 405;
+    aspect-ratio: 1 / 1;
     width: 100%;
-    border-radius: 8px;
-    background: url("/images/wechat-codex-group.png") center / cover no-repeat;
+    border-radius: 10px;
+    background: #fff url("/images/wechat-codex-group.png") center / contain no-repeat;
   }
 
   .vp-dropdown-item {
@@ -277,13 +327,23 @@
   }
 
   .vp-nav-screen-menu::before {
+    content: "扫码加入 CodexGuide 交流群";
+    display: block;
+    margin-bottom: 0.55rem;
+    color: var(--vp-c-text);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .vp-nav-screen-menu::after {
     content: "";
     display: block;
-    aspect-ratio: 980 / 405;
-    width: min(100%, 28rem);
+    aspect-ratio: 1 / 1;
+    width: min(100%, 15rem);
+    margin-inline: auto;
     border: 1px solid var(--vp-c-border);
-    border-radius: 8px;
-    background: url("/images/wechat-codex-group.png") center / cover no-repeat;
+    border-radius: 10px;
+    background: #fff url("/images/wechat-codex-group.png") center / contain no-repeat;
     box-shadow: 0 8px 24px var(--vp-c-shadow);
   }
 

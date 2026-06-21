@@ -23,10 +23,9 @@ export default hopeTheme({
 
   author: {
     name: "shuwei",
-    url: "https://github.com/eric-shuwei",
   },
 
-  repo: "https://github.com/eric-shuwei/CodexGuide",
+  repo: false,
   docsDir: "docs",
 
   navbar,
@@ -92,7 +91,7 @@ export default hopeTheme({
                     "@type": "ImageObject",
                     url: `${siteUrl}/logo.svg`,
                   },
-                  sameAs: ["https://github.com/eric-shuwei/CodexGuide"],
+                  sameAs: [],
                 },
                 {
                   "@type": "WebSite",

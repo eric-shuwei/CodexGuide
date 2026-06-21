@@ -6,10 +6,6 @@
 
 <p align="center">
   <a href="https://codexguide.offerya.cc/"><img src="https://img.shields.io/badge/Docs-codexguide.offerya.cc-0f766e?style=flat-square" alt="Docs"></a>
-  <a href="https://github.com/eric-shuwei/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/eric-shuwei/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
-  <a href="https://github.com/eric-shuwei/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/eric-shuwei/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
-  <a href="https://github.com/eric-shuwei/CodexGuide/issues"><img src="https://img.shields.io/github/issues/eric-shuwei/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/github/license/eric-shuwei/CodexGuide?style=flat-square&color=f59e0b" alt="License"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-14b8a6?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
@@ -162,10 +158,6 @@ The development server starts the VuePress documentation site. The production si
 - **Real task oriented**: fewer abstract concepts, more repeatable task flows, inputs, outputs, and verification methods.
 - **Clear safety boundaries**: file writes, command execution, network access, credentials, browser control, and computer control all need explicit risk framing.
 - **Reusable learning**: successful runs should become AGENTS.md rules, templates, cases, retrospectives, and team norms.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=eric-shuwei/CodexGuide&type=Date)](https://www.star-history.com/#eric-shuwei/CodexGuide&Date)
 
 ## Community Group
 

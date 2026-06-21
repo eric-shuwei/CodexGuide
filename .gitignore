@@ -15,3 +15,5 @@ docs/.vuepress/dist
 .vercel
 
 .claudian/
+
+.playwright-mcp/

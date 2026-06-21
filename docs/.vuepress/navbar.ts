@@ -62,9 +62,6 @@ const communityItems = [
   { text: "加入 CodexGuide 交流群", icon: "message", link: "/community/roadmap.md" },
 ];
 
-const sponsorItems = [
-  { text: "Offerya Token", link: "https://token.offerya.cc" },
-];
 
 export default navbar([
   { text: "首页", icon: "home", link: "/" },
@@ -88,12 +85,7 @@ export default navbar([
     ariaLabel: "交流群",
     children: communityItems,
   },
-  {
-    text: "赞助商",
-    icon: "star",
-    ariaLabel: "赞助商导航",
-    children: sponsorItems,
-  },
+  { text: "AI中转站", link: "https://token.offerya.cc" },
   {
     text: "更多",
     icon: "more",
@@ -103,7 +95,7 @@ export default navbar([
       { text: "资源", icon: "box", link: "/reference/" },
       { text: "教程", icon: "book", link: "/guide/01-app-installation.md" },
       { text: "交流群", icon: "message", link: "/community/roadmap.md" },
-      { text: "赞助商", icon: "star", link: "https://token.offerya.cc" },
+      { text: "AI中转站", link: "https://token.offerya.cc" },
     ],
   },
 ]);
