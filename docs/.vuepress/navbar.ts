@@ -59,12 +59,11 @@ const recipeItems = [
 ];
 
 const communityItems = [
-  { text: "关注苍何公众号，回复 codex交流群 进入群交流", icon: "message", link: "/community/roadmap.md" },
+  { text: "加入 CodexGuide 交流群", icon: "message", link: "/community/roadmap.md" },
 ];
 
 const sponsorItems = [
-  { text: "Unity2.ai", link: "https://unity2.ai/register?source=canghe" },
-  { text: "PayForChat", link: "https://payforchat.com/register?ref=XJKHTC7N" },
+  { text: "Offerya Token", link: "https://token.offerya.cc" },
 ];
 
 export default navbar([
@@ -104,7 +103,7 @@ export default navbar([
       { text: "资源", icon: "box", link: "/reference/" },
       { text: "教程", icon: "book", link: "/guide/01-app-installation.md" },
       { text: "交流群", icon: "message", link: "/community/roadmap.md" },
-      { text: "赞助商", icon: "star", link: "https://unity2.ai/register?source=canghe" },
+      { text: "赞助商", icon: "star", link: "https://token.offerya.cc" },
     ],
   },
 ]);

@@ -1,7 +1,7 @@
 import { inject } from "@vercel/analytics";
 import { defineClientConfig } from "vuepress/client";
 
-const analyticsHosts = new Set(["codexguide.ai", "www.codexguide.ai"]);
+const analyticsHosts = new Set(["codexguide.offerya.cc"]);
 
 export default defineClientConfig({
   enhance: () => {

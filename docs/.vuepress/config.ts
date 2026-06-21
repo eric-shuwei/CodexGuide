@@ -36,7 +36,7 @@ export default defineUserConfig({
 
   head: [
     ["meta", { name: "robots", content: "index,follow,max-image-preview:large" }],
-    ["meta", { name: "author", content: "canghe" }],
+    ["meta", { name: "author", content: "shuwei" }],
     [
       "meta",
       {

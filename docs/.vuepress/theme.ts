@@ -22,11 +22,11 @@ export default hopeTheme({
   favicon: "/logo.svg",
 
   author: {
-    name: "canghe",
-    url: "https://github.com/freestylefly",
+    name: "shuwei",
+    url: "https://github.com/eric-shuwei",
   },
 
-  repo: "https://github.com/freestylefly/CodexGuide",
+  repo: "https://github.com/eric-shuwei/CodexGuide",
   docsDir: "docs",
 
   navbar,
@@ -37,7 +37,7 @@ export default hopeTheme({
   focus: false,
   breadcrumb: true,
   displayFooter: true,
-  footer: "MIT Licensed | Copyright © 2026 canghe",
+  footer: "MIT Licensed | Copyright © 2026 shuwei. Original project © 2026 canghe",
   pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
@@ -56,11 +56,11 @@ export default hopeTheme({
   plugins: {
     copyCode: true,
     copyright: {
-      author: "CodexGuide(codexguide.ai)",
+      author: "CodexGuide(codexguide.offerya.cc)",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://codexguide.ai/",
+      canonical: "https://codexguide.offerya.cc/",
       global: true,
     },
     feed: {
@@ -92,7 +92,7 @@ export default hopeTheme({
                     "@type": "ImageObject",
                     url: `${siteUrl}/logo.svg`,
                   },
-                  sameAs: ["https://github.com/freestylefly/CodexGuide"],
+                  sameAs: ["https://github.com/eric-shuwei/CodexGuide"],
                 },
                 {
                   "@type": "WebSite",

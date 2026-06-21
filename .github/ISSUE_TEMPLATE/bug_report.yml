@@ -14,7 +14,7 @@ body:
     id: page
     attributes:
       label: 相关页面
-      placeholder: https://github.com/freestylefly/codex-handbook/...
+      placeholder: https://github.com/eric-shuwei/CodexGuide/...
   - type: textarea
     id: expected
     attributes:

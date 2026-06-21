@@ -1,4 +1,4 @@
-export const siteUrl = "https://codexguide.ai";
+export const siteUrl = "https://codexguide.offerya.cc";
 
 export const siteDescription =
   "CodexGuide 是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。";

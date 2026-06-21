@@ -5,11 +5,11 @@
 <h3 align="center">A practical Codex guide for global beginners, creators, developers, and teams</h3>
 
 <p align="center">
-  <a href="https://codexguide.ai/"><img src="https://img.shields.io/badge/Docs-codexguide.ai-0f766e?style=flat-square" alt="Docs"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/freestylefly/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/freestylefly/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/issues"><img src="https://img.shields.io/github/issues/freestylefly/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/github/license/freestylefly/CodexGuide?style=flat-square&color=f59e0b" alt="License"></a>
+  <a href="https://codexguide.offerya.cc/"><img src="https://img.shields.io/badge/Docs-codexguide.offerya.cc-0f766e?style=flat-square" alt="Docs"></a>
+  <a href="https://github.com/eric-shuwei/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/eric-shuwei/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
+  <a href="https://github.com/eric-shuwei/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/eric-shuwei/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
+  <a href="https://github.com/eric-shuwei/CodexGuide/issues"><img src="https://img.shields.io/github/issues/eric-shuwei/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/eric-shuwei/CodexGuide?style=flat-square&color=f59e0b" alt="License"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-14b8a6?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
@@ -18,7 +18,7 @@
   ·
   <a href="./README.md">简体中文</a>
   ·
-  <a href="https://codexguide.ai/">Read Online</a>
+  <a href="https://codexguide.offerya.cc/">Read Online</a>
   ·
   <a href="./docs/guide/00-overview.md">Learning Path</a>
   ·
@@ -40,17 +40,17 @@
 
 ## Website
 
-**CodexGuide is available at [codexguide.ai](https://codexguide.ai/).**
+**CodexGuide is available at [codexguide.offerya.cc](https://codexguide.offerya.cc/).**
 
 <p align="center">
-  <a href="https://codexguide.ai/">
+  <a href="https://codexguide.offerya.cc/">
     <img src="./assets/homepage-preview.png" alt="CodexGuide website homepage preview" width="920" />
   </a>
 </p>
 
 The GitHub README is a quick project overview. For actual learning, the website provides fuller navigation, search, sidebars, screenshots, setup maps, learning paths, and hands-on examples. Key pages are marked with review dates whenever possible, so you can decide when to verify details against official OpenAI sources.
 
-If you are new to Codex, start with the [Learning Path](https://codexguide.ai/guide/00-overview.html). If you already know whether you want CLI, Desktop App, Cloud, or IDE workflows, start from the [Entry Map](https://codexguide.ai/platform/).
+If you are new to Codex, start with the [Learning Path](https://codexguide.offerya.cc/guide/00-overview.html). If you already know whether you want CLI, Desktop App, Cloud, or IDE workflows, start from the [Entry Map](https://codexguide.offerya.cc/platform/).
 
 ## Vision
 
@@ -74,15 +74,9 @@ The guide is mainly written in Chinese today, but its audience is broader than C
 
 ## ❤️ Sponsors
 
-> [Want to appear here?](https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/community/wechat-personal.jpg) Add me on WeChat and include your product name plus a short project sponsorship note in the friend request.
-
 | Sponsor | Description |
 | ------- | ----------- |
-| <a href="https://unity2.ai/register?source=canghe"><img src="./assets/sponsors/unity2-ai.jpg" alt="Unity2.ai" width="240"></a> | Thanks to Unity2.ai for sponsoring this project. Unity2.ai is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support. Register through this [link](https://unity2.ai/register?source=canghe) to receive a $2 balance, then join the official community to receive another $10 balance, for up to $12 in free credits. |
-| <a href="https://payforchat.com/register?ref=XJKHTC7N"><img src="./assets/sponsors/payforchat.jpg" alt="PayForChat" width="240"></a> | PayForChat supports ChatGPT and Claude membership activation and top-ups: pay directly with WeChat, no overseas credit card required, top up your own account through official channels, receive a full refund if it fails, and get Chinese support plus receipts. Click [here](https://payforchat.com/register?ref=XJKHTC7N) to register and try it. |
-| <a href="https://getgpt.pro/i/codexguide"><img src="./assets/sponsors/getgpt-pro.jpg" alt="GetGPT Pro" width="240"></a> | GetGPT Pro provides AI subscription activation and top-up services for ChatGPT, Claude, and other tools, with self-service ordering, fast delivery, and after-sales support. |
-| <a href="https://pptoken.cc/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/pptoken.png" alt="PPToken" width="240"></a> | Project sponsor. PPToken provides API relay and key distribution for ChatGPT, Claude, Gemini and other mainstream AI models, with low latency, high availability, pay-as-you-go billing, and flexible subscription plans. |
-| <a href="https://ciyuan.today/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/ciyuan-api.jpg" alt="Ciyuan API" width="240"></a> | Project sponsor. Ciyuan API aims to become a one-stop AI interface platform for developers, providing stable, low-latency, and highly available large model API services to make AI application development simpler. |
+| [Offerya Token](https://token.offerya.cc) | Offerya Token provides AI token and model service capabilities to help developers access and manage AI workflows more easily. |
 
 ## What You'll Find
 
@@ -159,7 +153,7 @@ Build the static site:
 pnpm build
 ```
 
-The development server starts the VuePress documentation site. The production site is published at [codexguide.ai](https://codexguide.ai/).
+The development server starts the VuePress documentation site. The production site is published at [codexguide.offerya.cc](https://codexguide.offerya.cc/).
 
 ## Design Principles
 
@@ -171,14 +165,14 @@ The development server starts the VuePress documentation site. The production si
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/CodexGuide&type=Date)](https://www.star-history.com/#freestylefly/CodexGuide&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=eric-shuwei/CodexGuide&type=Date)](https://www.star-history.com/#eric-shuwei/CodexGuide&Date)
 
-## WeChat Official Account
+## Community Group
 
-Search **苍何** on WeChat or scan the QR code below. Reply with **codex交流群** to join the community group.
+Scan the QR code below to join the CodexGuide community group.
 
 <p align="center">
-  <img src="./assets/wechat-codex-group.png" alt="Follow Canghe on WeChat and reply codex交流群 to join the community" width="820" />
+  <img src="./assets/wechat-codex-group.png" alt="CodexGuide community group QR code" width="820" />
 </p>
 
 ## Sources
