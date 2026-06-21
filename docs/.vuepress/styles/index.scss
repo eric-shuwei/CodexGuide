@@ -261,7 +261,7 @@
   transform: none;
 }
 
-.vp-dropdown-wrapper:has(> .vp-dropdown-title[aria-label="交流群"]) {
+.vp-dropdown-wrapper:has(> .vp-dropdown-title[aria-label="codex交流群"]) {
   .vp-dropdown-title {
     border-radius: 6px;
     padding-inline: 0.45rem;
@@ -308,8 +308,8 @@
   }
 }
 
-.vp-dropdown-wrapper:has(> .vp-dropdown-title[aria-label="交流群"]):hover .vp-dropdown,
-.vp-dropdown-wrapper.open:has(> .vp-dropdown-title[aria-label="交流群"]) .vp-dropdown {
+.vp-dropdown-wrapper:has(> .vp-dropdown-title[aria-label="codex交流群"]):hover .vp-dropdown,
+.vp-dropdown-wrapper.open:has(> .vp-dropdown-title[aria-label="codex交流群"]) .vp-dropdown {
   transform: translateX(-50%);
 }
 
@@ -321,7 +321,7 @@
   }
 }
 
-.navbar-links-item:has(> .vp-nav-screen-menu-title[aria-label="交流群"]) {
+.navbar-links-item:has(> .vp-nav-screen-menu-title[aria-label="codex交流群"]) {
   .vp-nav-screen-menu {
     margin-top: 0.75rem;
   }
