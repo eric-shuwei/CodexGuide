@@ -31,7 +31,7 @@ export default defineUserConfig({
   base: "/",
   dest: "docs/.vuepress/dist",
   lang: "zh-CN",
-  title: "CodexGuide",
+  title: "Codex指导手册",
   description: siteDescription,
 
   head: [
@@ -42,7 +42,7 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "CodexGuide,Codex 教程,Codex教程,OpenAI Codex 中文教程,Codex 使用教程,Codex CLI 教程,Codex 桌面 App,AGENTS.md,AI 编程,AI Agent,工作流,实战指南",
+          "Codex指导手册,Codex 教程,Codex教程,OpenAI Codex 中文教程,Codex 使用教程,Codex CLI 教程,Codex 桌面 App,AGENTS.md,AI 编程,AI Agent,工作流,实战指南",
       },
     ],
     ["meta", { name: "theme-color", content: "#0f766e" }],

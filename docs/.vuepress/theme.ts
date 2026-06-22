@@ -55,7 +55,7 @@ export default hopeTheme({
   plugins: {
     copyCode: true,
     copyright: {
-      author: "CodexGuide(codexguide.offerya.cc)",
+      author: "Codex指导手册(codexguide.offerya.cc)",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
@@ -74,7 +74,7 @@ export default hopeTheme({
         ...ogp,
         "og:description": getPageDescription(page.path),
         "og:image": page.frontmatter.cover || page.frontmatter.banner ? ogp["og:image"] : siteOgImage,
-        "og:image:alt": `${page.title} - CodexGuide`,
+        "og:image:alt": `${page.title} - Codex指导手册`,
         "og:locale": "zh_CN",
       }),
       jsonLd: (jsonLD, page) =>
@@ -85,7 +85,7 @@ export default hopeTheme({
                 {
                   "@type": "Organization",
                   "@id": `${siteUrl}/#organization`,
-                  name: "CodexGuide",
+                  name: "Codex指导手册",
                   url: `${siteUrl}/`,
                   logo: {
                     "@type": "ImageObject",
@@ -96,7 +96,7 @@ export default hopeTheme({
                 {
                   "@type": "WebSite",
                   "@id": `${siteUrl}/#website`,
-                  name: "CodexGuide",
+                  name: "Codex指导手册",
                   alternateName: ["OpenAI Codex 中文教程", "Codex 教程"],
                   url: `${siteUrl}/`,
                   description: getPageDescription(page.path),
@@ -113,7 +113,7 @@ export default hopeTheme({
                 {
                   "@type": ["LearningResource", "Course"],
                   "@id": `${siteUrl}/#codex-course`,
-                  name: "CodexGuide：OpenAI Codex 中文教程与实战指南",
+                  name: "Codex指导手册：OpenAI Codex 中文教程与实战指南",
                   url: `${siteUrl}/`,
                   description: getPageDescription(page.path),
                   image: [siteOgImage],
@@ -140,12 +140,12 @@ export default hopeTheme({
               inLanguage: "zh-CN",
               isPartOf: {
                 "@type": "WebSite",
-                name: "CodexGuide",
+                name: "Codex指导手册",
                 url: `${siteUrl}/`,
               },
               publisher: {
                 "@type": "Organization",
-                name: "CodexGuide",
+                name: "Codex指导手册",
                 url: `${siteUrl}/`,
                 logo: {
                   "@type": "ImageObject",
@@ -155,13 +155,13 @@ export default hopeTheme({
             },
       customHead: (head, page) => {
         const description = getPageDescription(page.path);
-        const title = `${page.title} | CodexGuide`;
+        const title = `${page.title} | Codex指导手册`;
 
         addMeta(head, "name", "twitter:card", "summary_large_image");
         addMeta(head, "name", "twitter:title", title);
         addMeta(head, "name", "twitter:description", description);
         addMeta(head, "name", "twitter:image", siteOgImage);
-        addMeta(head, "name", "twitter:image:alt", `${page.title} - CodexGuide`);
+        addMeta(head, "name", "twitter:image:alt", `${page.title} - Codex指导手册`);
       },
     },
     sitemap: {
@@ -173,7 +173,7 @@ export default hopeTheme({
       maxSuggestions: 10,
       locales: {
         "/": {
-          placeholder: "搜索 CodexGuide",
+          placeholder: "搜索 Codex指导手册",
         },
       },
     },

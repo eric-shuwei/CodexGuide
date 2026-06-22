@@ -144,7 +144,7 @@ Automations 适合周期性或延迟型任务：
 写 automation prompt 时要让它自包含：
 
 ```text
-检查 CodexGuide 仓库中的 Markdown 链接、VuePress 构建结果和禁用句式。输出发现的问题、涉及文件、建议修复方式和验证命令。
+检查 Codex指导手册 仓库中的 Markdown 链接、VuePress 构建结果和禁用句式。输出发现的问题、涉及文件、建议修复方式和验证命令。
 ```
 
 ::: info 截图占位

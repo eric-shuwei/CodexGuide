@@ -141,7 +141,7 @@ export default sidebar({
 
   "/": [
     {
-      text: "CodexGuide",
+      text: "Codex指导手册",
       icon: "home",
       children: [
         "/guide/00-overview.md",

@@ -1,7 +1,7 @@
 export const siteUrl = "https://codexguide.offerya.cc";
 
 export const siteDescription =
-  "CodexGuide 是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。";
+  "Codex指导手册是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。";
 
 export const siteOgImage = `${siteUrl}/og.svg`;
 
@@ -27,9 +27,9 @@ export const toCleanPath = (path: string): string => {
 export const pageDescriptions: Record<string, string> = {
   "/": siteDescription,
   "/community/":
-    "CodexGuide 社区共建入口，整理路线图、贡献方向和内容认领方式，方便一起完善 Codex 中文实践知识库。",
+    "Codex指导手册社区共建入口，整理路线图、贡献方向和内容认领方式，方便一起完善 Codex 中文实践知识库。",
   "/community/roadmap.html":
-    "CodexGuide 共建路线图，记录文档站骨架、教程、案例、截图、关键词索引和社区传播的后续计划。",
+    "Codex指导手册共建路线图，记录文档站骨架、教程、案例、截图、关键词索引和社区传播的后续计划。",
   "/configuration/":
     "Codex 配置教程总览，梳理 AGENTS.md、config.toml、Skills、MCP、Subagents、安全审批和团队配置路径。",
   "/configuration/cli-options.html":
@@ -41,7 +41,7 @@ export const pageDescriptions: Record<string, string> = {
   "/configuration/security-admin.html":
     "Codex 安全、审批与管理指南，整理沙盒、网络访问、凭据边界、组织策略和团队审计关注点，适合上线前检查。",
   "/guide/":
-    "CodexGuide 学习路线目录，汇总入门准备、日常工作流、CLI、IDE、Cloud、AGENTS.md 和排障章节。",
+    "Codex指导手册学习路线目录，汇总入门准备、日常工作流、CLI、IDE、Cloud、AGENTS.md 和排障章节。",
   "/guide/00-overview.html":
     "Codex 教程学习路线，覆盖 OpenAI Codex 桌面 App、CLI、IDE、Cloud、任务闭环、配置和团队落地。",
   "/guide/01-app-installation.html":
@@ -111,7 +111,7 @@ export const pageDescriptions: Record<string, string> = {
   "/recipes/clinical-literature-review.html":
     "Codex 临床文献综述案例，说明如何把医学科研问题整理成 PICO、证据表、证据来源、局限性和医疗安全边界。",
   "/recipes/credits.html":
-    "CodexGuide 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。",
+    "Codex指导手册参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。",
   "/recipes/dkfile-deploy-codex.html":
     "Codex 与 DKFile 发布案例，说明如何用 AI 生成网页、构建静态产物并一键发布到公网，同时确认访问结果。",
   "/recipes/drawio-mcp.html":

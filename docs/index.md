@@ -2,10 +2,10 @@
 home: true
 icon: home
 title: OpenAI Codex 教程与中文实战指南
-description: "CodexGuide 是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。"
+description: "Codex指导手册是面向中文用户的 OpenAI Codex 教程，系统整理 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills、AGENTS.md 和实战案例。"
 pageClass: codex-home-page
 heroImage: /logo.svg
-heroText: CodexGuide
+heroText: Codex指导手册
 tagline: 面向中文用户的 OpenAI Codex 中文教程与实战指南。覆盖 Codex 桌面 App、CLI、IDE、Cloud、配置、Skills 和真实案例。
 actions:
   - text: 阅读 Codex 教程路线
@@ -50,7 +50,7 @@ features:
 
 ## 这份教程适合谁
 
-CodexGuide 是面向中文用户的 OpenAI Codex 中文教程站，围绕真实任务整理 Codex 使用教程、Codex CLI 安装、配置、安全边界和实战案例。如果你正在找 Codex教程、Codex 使用教程或团队落地方法，可以从这里建立完整路径。
+Codex指导手册是面向中文用户的 OpenAI Codex 中文教程站，围绕真实任务整理 Codex 使用教程、Codex CLI 安装、配置、安全边界和实战案例。如果你正在找 Codex教程、Codex 使用教程或团队落地方法，可以从这里建立完整路径。
 
 <div class="home-metric-grid">
   <a class="home-metric-card" href="/guide/00-overview" data-tone="teal">

@@ -59,7 +59,7 @@ const recipeItems = [
 ];
 
 const communityItems = [
-  { text: "加入 CodexGuide 交流群", icon: "message", link: "/community/roadmap.md" },
+  { text: "加入 Codex指导手册 交流群", icon: "message", link: "/community/roadmap.md" },
 ];
 
 

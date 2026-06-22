@@ -4,7 +4,7 @@ description: "Codex 入口地图，比较 CLI、桌面 App、Cloud、IDE、ChatG
 
 # Codex 入口地图
 
-CodexGuide 把 Codex 看成一组入口协同的工作系统。学习时不要只盯着某一个界面；真正影响效率的是：你把什么任务放在哪个入口里处理。
+Codex指导手册把 Codex 看成一组入口协同的工作系统。学习时不要只盯着某一个界面；真正影响效率的是：你把什么任务放在哪个入口里处理。
 
 ![Codex 使用入口地图](/images/codex-surfaces.svg?v=20260611)
 
